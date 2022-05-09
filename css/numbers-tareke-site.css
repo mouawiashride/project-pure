@@ -1,0 +1,32 @@
+
+.numbers-tareke-site {
+padding: 40px;
+background-image: url('../media/tareke-numbers/numbers-tareke-site\ -background.png');
+height: fit-content; 
+background-position: center; 
+background-repeat: no-repeat; 
+background-size: cover;
+}
+.numbers-tareke-site h2 
+{
+    font-weight: 700;
+}
+.numbers-tareke-site p , .numbers-tareke-site h2 
+{
+    color: white !important;
+}
+
+@media (max-width:576px)
+{
+    .numbers-tareke-site div.row > div
+    {
+        width: 25vw;
+    }
+}
+@media (min-width:576px)
+{
+    .numbers-tareke-site div.row > div
+    {
+        width:200px;
+    }
+}

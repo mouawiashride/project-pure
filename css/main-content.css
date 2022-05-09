@@ -1,0 +1,56 @@
+.main-content
+{
+    background-image: url('../media/maincontent/maincontent.png');
+    height: fit-content; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.icons-container > a 
+{
+    margin: 0 6px;
+}
+.icons-container > img 
+{
+width: 15px;
+height: 15px;
+}
+
+
+
+.main-content-ul > li
+{
+display: inline-block;
+margin: 0 10px;
+}
+.main-content-ul  a
+{
+    color: white !important;
+}
+.browse-our-section 
+{
+    border-radius: 20px;
+    width: fit-content;
+}
+@media (max-width:576px)
+{
+    .main-content  .icons-container  img 
+    {
+        width: 30px;
+        height: 30px; 
+    }
+    .main-content .browse-our-section
+    {
+        padding: 6px !important;
+        text-align: center;
+        font-size: 12px;
+    }
+  
+    .main-content-ul
+    {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

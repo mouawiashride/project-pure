@@ -1,0 +1,43 @@
+.footer-home
+{
+    background-image: url('../media/footer/background-footer.png');
+    height: fit-content; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+   
+}
+
+
+.footer-home  ul li
+{
+    display: inline-block;
+    margin: 10px;
+    list-style: none;
+}
+
+.footer-home p , .footer-home h2 ,.footer-home h3 , .footer-home a 
+{
+    color: white !important;
+}
+.footer-numbers-section
+{
+    width: fit-content;
+    border-bottom: solid 2px #F6B41B; 
+    margin: 5px auto;
+}
+
+@media  (max-width:767px) {
+    
+    div.footer_logo > img
+    {
+         width: 200px;
+         height: 100px;
+    }
+    .footer_icons > img
+    {
+        width: 20px;
+        height: 20px;
+        margin: 4px auto;
+    }
+}

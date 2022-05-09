@@ -1,0 +1,23 @@
+.site-newspaper div.row
+{
+    padding: 40px;
+    background-image: url('../media/newspaper-site/background-newspaper-site.png');
+    height: fit-content; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+.site-newspaper img 
+{
+  
+    margin: 0 auto 20px !important;
+}
+.browse-now
+{
+    display: block;
+    margin: 20px auto;
+    width: fit-content;
+    padding: 10px 30px;
+    background-color: #028379;
+    color: white !important;
+}

@@ -1,0 +1,9 @@
+.video-how-to-use-site .video-container
+{
+    background-image: url('../media/video-how-to-use-site/background-how-to-use-site.png');
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    width: 100%;
+    padding: 40px;
+}

@@ -1,0 +1,20 @@
+.how-site-can-help-you
+{ 
+background-image: url('../media/how-site-help-you/how-site-help-you-background.png');
+height: fit-content; 
+background-position: center; 
+background-repeat: no-repeat; 
+background-size: cover;
+}
+.how-site-can-help-you a 
+{
+    display: block;
+    margin: 0 auto;
+    color: white !important;
+    background-color: #707070;
+    width: fit-content;
+    padding: 20px 40px;
+    border-radius: 20px;
+}
+
+

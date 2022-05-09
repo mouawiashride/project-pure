@@ -1,0 +1,15 @@
+.site-library div.row
+{
+    padding: 40px;
+    background-image: url('../media/library-site/background-library-site.png');
+    height: fit-content; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.site-library img 
+{
+    margin-bottom: 20px;
+}
+

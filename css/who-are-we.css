@@ -1,0 +1,19 @@
+.who_are_we  h3
+{
+color: #3C27F9 !important;
+}
+
+@media (max-width:576px)
+{
+    .who_are_we_content
+    {
+        font-size: 12px ;
+    }
+}
+@media (min-width:576px)
+{
+    .who_are_we_content
+    {
+        font-size: 24px ;
+    }
+}

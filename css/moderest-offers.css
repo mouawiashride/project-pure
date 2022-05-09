@@ -1,0 +1,58 @@
+.moderest_offers
+{
+    background-image: url('../media/moderest-offers/moderest-offers-background.png');
+    height: fit-content; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.moderest_offers div.carousel-indicators
+{
+    position: absolute;
+    bottom: -50px;
+}
+
+.moderest_offers div.carousel-indicators > button
+{
+   
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+    border:1px solid  #11AEA2;
+  
+}
+.moderest_offers div.carousel-indicators > button.active
+{
+    background-color: #11AEA2;
+}
+
+.moderest_offers  .moderest-offers-title
+{
+    border-bottom: 3px solid #6A59FF;
+    padding-bottom: 10px;
+    width: fit-content;
+    position: relative;
+}
+.moderest_offers  .moderest-offers-title::before
+{
+    content: " ";
+  position: absolute;
+  z-index: 2;
+  width: 60%;
+  top: 120%;
+  left: 25%;
+  right: 25%;
+  border-bottom: 3px solid #6A59FF;
+}
+
+@media (max-width:576px)
+{
+    .moderest_offers {
+        padding: 5px !important;
+    }
+    .moderest_offers  .moderest_offers_carousel
+    {
+        width: 90% !important;
+    }
+}

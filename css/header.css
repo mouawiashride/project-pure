@@ -1,0 +1,81 @@
+
+
+
+
+
+
+.sign
+{
+    background-color: #037A79;
+    color: white !important;
+}
+.sign_in
+{
+    border: 2px solid #037A79 ;
+}
+.main_ul
+{
+    justify-content: center;
+    align-items: center;
+}
+.main_ul > li 
+{
+    width: 50%;
+    margin: 4px 10px;
+}
+
+
+@media  (max-width: 576px) 
+{
+.navbar-brand img
+{
+    width: 60px ;
+    height:50px ;
+}
+
+.navbar-brand ul 
+{
+    padding: 0 !important;
+    margin: 5px auto !important;
+}
+
+.Main_nav ul li 
+{
+    width: 50% !important;
+    margin: 2px auto !important;
+    text-align: center;
+}
+.Main_navul li a 
+{
+    padding: 6px 6px !important;
+    width: fit-content;
+}
+}
+
+@media  (min-width: 576px)
+{
+    .navbar-brand img
+    {
+        width: 60px ;
+        height:50px ;
+    }
+} 
+@media (min-width:992px)
+{
+    .Main_nav ul
+    {
+        width: auto;
+    }
+    .Main_nav ul li 
+    {
+        width: 100%;
+    }
+    .Main_nav ul li a 
+    {
+        width: 100%;
+    }
+    .Main_nav .main_ul form
+    {
+        width: 100%;
+    }
+}
